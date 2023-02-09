@@ -48,8 +48,8 @@ function App() {
 
   const style = {
     bg: `bg-[#345B54] h-screen w-screen absolute`,
-    container: `z-9999 bg-white rounded-t-3xl h-[70vh] w-screen flex flex-col items-center absolute bottom-0 insetx-0 px-24 overflow-hidden`,
-    heading: `text-white text-8xl ml-3 absolute top-0 left-0 translate-y-20 text-extrabold`,
+    container: `z-9999 bg-white rounded-t-3xl h-[65vh] w-screen flex flex-col items-center absolute bottom-0 insetx-0 p-8 overflow-hidden`,
+    heading: `z-50 text-white text-8xl ml-3 absolute top-0 left-0 translate-y-32 text-extrabold`,
   }
 
   return (
@@ -57,7 +57,7 @@ function App() {
     <div>
       <div className={style.bg}>
         <h3 className={style.heading}>Hello!</h3>
-        <img className='absolute inset-y-0 right-0 ' src={girl_img}/>
+        <img className='absolute inset-y-0 right-0' src={girl_img}/>
         <div className={style.container}>
         <form onSubmit={createTodo}>
         <Input 
