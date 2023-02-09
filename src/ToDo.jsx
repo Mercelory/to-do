@@ -5,9 +5,9 @@ import { Checkbox } from '@chakra-ui/react'
 
 const ToDo = ({todo, toggleComplete, deleteTodo}) => {
     const style = {
-        li: `flex m-1`,
+        li: `flex m-1 px-8`,
         liComplete: `flex m-1`,
-        row: `flex w-[320px]`,
+        row: `flex justify-between mr-24`,
         text: `ml-3 cursor-pointer`,
         textComplete: `ml-3 line-through cursor-pointer`,
         button: `ml-3 flex items-center`

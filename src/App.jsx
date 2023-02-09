@@ -68,8 +68,7 @@ function App() {
         borderRadius='35px'
         focusBorderColor='#345B54'
         marginTop='15px'
-        marginBottom='15px'
-        width='360px'/>
+        marginBottom='15px'/>
         </form>
         <ul>
           {todos.map((todo, index)=>(
