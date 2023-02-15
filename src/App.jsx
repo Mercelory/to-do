@@ -46,19 +46,13 @@ function App() {
     await deleteDoc(doc(db, 'todos', id))
   }
 
-  const style = {
-    bg: `bg-[#345B54] h-screen w-screen absolute`,
-    container: `z-9999 bg-white rounded-t-3xl h-[65vh] w-screen flex flex-col items-center absolute bottom-0 insetx-0 p-8 overflow-hidden`,
-    heading: `z-50 text-white text-8xl ml-3 absolute top-0 left-0 translate-y-32 text-extrabold`,
-  }
-
   return (
     <ChakraProvider>
-    <div>
-      <div className={style.bg}>
-        <h3 className={style.heading}>Hello!</h3>
-        <img className='absolute inset-y-0 right-0' src={girl_img}/>
-        <div className={style.container}>
+    <div className='md:flex md:justify-center md:bg-[#DDDDDD] md:w-screen md:h-screen md:p-5 '>
+      <div className='bg-[#345B54] md:w-1/4 md:rounded-3xl h-screen md:h-[90vh] md:relative overflow-hidden'>
+        <h3 className='text-[#DDDDDD] text-8xl ml-3 md:absolute md:bottom-0 inset-x-0 translate-y-52 md:-translate-y-96'>Hello!</h3>
+        <img src={girl_img} className='w-48'/>
+        <div className='bg-[#acacac] rounded-3xl flex flex-col items-center p-8 overflow-auto h-[80vh] md:h-[60vh]'>
         <form onSubmit={createTodo}>
         <Input 
         variant='filled' 
@@ -67,7 +61,6 @@ function App() {
         onChange={(e) => setInput(e.target.value)}
         borderRadius='35px'
         focusBorderColor='#345B54'
-        marginTop='15px'
         marginBottom='15px'/>
         </form>
         <ul>
