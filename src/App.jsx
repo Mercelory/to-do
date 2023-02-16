@@ -48,11 +48,11 @@ function App() {
 
   return (
     <ChakraProvider>
-    <div className='md:flex md:justify-center md:bg-[#DDDDDD] md:w-screen md:h-screen md:p-5 '>
+    <div className='md:flex md:justify-center md:bg-[#ffffff] md:w-screen md:h-screen md:p-5 '>
       <div className='bg-[#345B54] md:w-1/4 md:rounded-3xl h-screen md:h-[90vh] md:relative overflow-hidden'>
         <h3 className='text-[#DDDDDD] text-8xl ml-3 md:absolute md:bottom-0 inset-x-0 translate-y-52 md:-translate-y-96'>Hello!</h3>
         <img src={girl_img} className='w-48'/>
-        <div className='bg-[#acacac] rounded-3xl flex flex-col items-center p-8 overflow-auto h-[80vh] md:h-[60vh]'>
+        <div className='bg-[#ffffff] rounded-3xl flex flex-col items-center p-8 overflow-auto h-[80vh] md:h-[60vh]'>
         <form onSubmit={createTodo}>
         <Input 
         variant='filled' 
