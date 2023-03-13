@@ -5,9 +5,9 @@
 body{ 
 font-family: 'Nunito', sans-serif !important;}
 
-*{
-    /* outline: 1px solid red; */
-}
+/* *{
+    outline: 1px solid red;
+} */
 
 /* width */
 ::-webkit-scrollbar {
