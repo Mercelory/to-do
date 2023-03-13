@@ -3,17 +3,17 @@
   "name": "To-do",
   "icons": [
     {
-      "src": "../src/img/Component 9.svg",
+      "src": "./Component 9.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../src/img/Component 9.svg",
+      "src": "./Component 9.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/img/Component 9.svg",
+      "src": "./Component 9.png",
       "type": "image/png",
       "sizes": "512x512"
     }
