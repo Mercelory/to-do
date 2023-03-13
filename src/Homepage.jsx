@@ -27,7 +27,7 @@ function App() {
           }
         });
       } else if (!user) {
-        navigate("/");
+        navigate("/to-do");
       }
     });
   }, []);
@@ -35,7 +35,7 @@ function App() {
    const logout = () => {
     signOut(auth)
     .then(() => {
-      navigate('/')
+      navigate('/to-do')
     })
    }
    const handleKeyDown = (event) => {
